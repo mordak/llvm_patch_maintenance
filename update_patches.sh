@@ -5,7 +5,7 @@ set -e
 OPENBSD=/scratch/openbsd/git/src/
 OPENBSD_BRANCH=master
 LLVM=/scratch/llvm/llvm-project/
-LLVM_BRANCH="openbsd-release/13.x openbsd-release/14.x openbsd-release/15.x openbsd-main"
+LLVM_BRANCH="openbsd-release/13.x openbsd-release/15.x openbsd-release/16.x openbsd-main"
 
 PATCHDIR=/tmp/llvm-patches
 BINDIR=/scratch/openbsd/update
