@@ -9,7 +9,7 @@ if [ -z $DIR ]; then
   exit
 fi
 
-for x in `find $DIR -type f -name '*.patch'`; do
+for x in `find $DIR -type f -name '*.patch' | sort`; do
   $FIXPATCH $x
   git apply --check $x
   if [ $? = 0 ]; then
